@@ -898,7 +898,7 @@ EXTRA_CFLAGS += -DCONFIG_IOCTL_CFG80211 -DRTW_USE_CFG80211_STA_EVENT
 ARCH ?= arm
 CROSS_COMPILE ?=
 KVER ?= $(shell uname -r)
-KSRC := /usr/src/kernel
+#KSRC := /usr/src/kernel
 MODDESTDIR := /usr/src/kernel/drivers/net/wireless/
 INSTALL_PREFIX :=
 endif
